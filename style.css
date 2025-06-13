@@ -60,3 +60,31 @@ footer {
   background: #ddd;
   margin-top: 2rem;
 }
+
+button.more-btn {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #7ec850;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button.more-btn:hover {
+  background-color: #66a53f;
+}
+
+.extra {
+  margin: 1rem;
+  padding: 0.8rem;
+  background: #f0f8e2;
+  border-left: 4px solid #7ec850;
+  border-radius: 6px;
+}
+
+.hidden {
+  display: none;
+}
