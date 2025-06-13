@@ -5,27 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campo e Cidade - Agrinho</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+
     <header>
         <h1>Campo e Cidade</h1>
-        <p>A harmonia entre a vida rural e urbana</p>
+        <nav>
+            <ul>
+                <li><a href="#campo">Campo</a></li>
+                <li><a href="#cidade">Cidade</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <h2>🌳 O Campo</h2>
-        <img src="images/campo.jpg" alt="Paisagem do campo" width="400">
-        <p>A vida no campo é marcada pela natureza, agricultura e tranquilidade.</p>
+    <section class="slider">
+        <div class="slides">
+            <img src="images/campo.jpg" alt="Paisagem do campo">
+            <img src="images/cidade.jpg" alt="Vista urbana">
+        </div>
     </section>
 
-    <section>
+    <section id="campo">
+        <h2>🌳 O Campo</h2>
+        <p>A vida no campo é tranquila e marcada pela natureza.</p>
+    </section>
+
+    <section id="cidade">
         <h2>🏙️ A Cidade</h2>
-        <img src="images/cidade.jpg" alt="Vista urbana" width="400">
-        <p>A cidade oferece tecnologia, infraestrutura e diversidade cultural.</p>
+        <p>A cidade é vibrante, cheia de tecnologia e diversidade.</p>
     </section>
 
     <footer>
         <p>Projeto Agrinho | 2025</p>
     </footer>
+
 </body>
 </html>
